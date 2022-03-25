@@ -3,9 +3,9 @@ $(document).ready(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 200) {
-      $("#masthead").addClass("scrolled");
+      $("#sitetitle").removeClass("scrolled");
     } else {
-      $("#masthead").removeClass("scrolled");
+      $("#sitetitle").addClass("scrolled");
     }
   });
 });
